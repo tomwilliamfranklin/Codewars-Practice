@@ -13,8 +13,7 @@ public class XO {
         oCount++;
       }
     }
-
-    System.out.println(xCount + "|" + oCount);
+    //System.out.println(xCount + "|" + oCount);
     if(xCount==oCount) {
       return true;
     }

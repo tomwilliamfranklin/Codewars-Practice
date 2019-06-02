@@ -17,7 +17,7 @@ public class isogram {
                 return false;
             }
         }
-    return true;
+        return true;
     }
 }
 

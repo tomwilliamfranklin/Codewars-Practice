@@ -8,6 +8,4 @@ public class TernaryOperator {
       */
      return (i%2 == 0) ? true : false; //Notice how you don't need the "if"
     }
-
-
 }

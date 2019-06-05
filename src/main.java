@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 
 class main
 {
@@ -16,6 +16,7 @@ class main
         //  System.out.println(EvenOrOdd.even_or_odd(12));
         // System.out.println(FindMissingLetter.findMissingLetter(new char[] { 'a','b','c','d','f' }));
         //System.out.println(FindMissingLetter.findMissingLetter(new char[] { 'O','Q','R','S' }));
-        System.out.println(SpinWords.spinWords("Hello World the"));
+       // System.out.println(SpinWords.spinWords("Hello World the"));
+        System.out.println(Arrays.toString(MexicanWave.wave("a       b    ")));
     }
 }

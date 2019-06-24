@@ -20,5 +20,7 @@ class main
         //System.out.println(Arrays.toString(MexicanWave.wave("a       b    ")));
         //System.out.println(PigLatin.pigIt("Hello World !!"));
       //  System.out.println(TripleDouble.TripleDouble(1010001,1101010));
+        //System.out.println(FindOdd.findIt(new int[] {2,2,4,4,4,6,3,8}));
+        System.out.println(Order.order("Hel2lo wor1ld"));
     }
 }

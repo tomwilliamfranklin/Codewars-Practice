@@ -1,5 +1,6 @@
 import java.util.Arrays;
-
+import java.util.List;
+import java.util.ArrayList;
 class main
 {
 
@@ -8,6 +9,7 @@ class main
 
     public static void main(String args[])
     {
+        List<Integer> i = Arrays.asList(1,4,4,4,0,4,3,3,1);
         // System.out.println(XO.getXO("xxx23424esdsfvxXXOOooo"));
         //  System.out.println(Vowels.getCount("aeiou"));
         //  System.out.println(isogram.isIsogram("aaddduiiic"));
@@ -21,6 +23,7 @@ class main
         //System.out.println(PigLatin.pigIt("Hello World !!"));
       //  System.out.println(TripleDouble.TripleDouble(1010001,1101010));
         //System.out.println(FindOdd.findIt(new int[] {2,2,4,4,4,6,3,8}));
-        System.out.println(Order.order("Hel2lo wor1ld"));
+        //System.out.println(Order.order("Hel2lo wor1ld"));
+        System.out.println(Consecutives.sumConsecutives(i));
     }
 }
